@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kalnia:wght@200&family=Raleway:wght@200&family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.main{
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+.container{
+    font-family: 'Philosopher-Regular';
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.slider{
+    background-color: #014421;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 500px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    height: 100%;
+    color: white;
+}
+
+.text1{
+    font-family: 'Philosopher-Regular';
+    font-size: 30px;
+    text-align: center;
+}
+
+#about, #overview, #sec-overview, #loc{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 500px;
+    padding: 40px;
+}
+
+.div3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-family: 'Philosopher-Regular';
+}
+
+#gallery{
+    background: #6e5e312b;
+}
+
+.img1{
+    position: relative;
+    opacity: 0.2;
+}
+
+.text2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#address{
+    background-color: lightgray;
+    color: #014421;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Philosopher-Regular';
+}
+
+.div5{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    font-family: 'Philosopher-Regular';
+    gap: 3px;
+    background-color: lightgray;
+    padding: 20px;
+    color: #014421;
+}
+
+.img-box{
+    text-align: right;
+}
+
+.content{
+    justify-content: left;
+}
+
+#developer{
+    background-color: #014421;
+    color: white;
+    text-align: center;
+    font-family: 'Philosopher-Regular';
+}
+
+.dev-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.last{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.form-sec{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    font-family: 'Philosopher-Regular';
+}
+
+input{
+    border-radius: 3px;
+}
